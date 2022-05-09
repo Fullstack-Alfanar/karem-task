@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="proName" placeholder="product name" required>
+        <input type="number" id="proPrice" placeholder="procduct Price" required>
+        <select name="products" id="products">
+            <option value=""></option>
+            <option value="drinks"> Drinks</option>
+            <option value="meat">Meat</option>
+            <option value="dairy">Dairy</option>
+            <option value="snacks">Snacks</option>
+            <option value="basic">Basic</option>
+            <input type="text" id="image" placeholder="Url image" required>
+        </select>
+        <button  id="bnt" onclick="add()">add product</button>
+    </div>
+  
+    <div class="tbl">
+        <table  >
+            <thead>
+                <tr>
+                    <td> <label for="">product name</label></td>
+                    <td><label for="">product price</label></td>
+                    <td><label for="">category</label></td>
+                    <td><label for="">image</label></td>
+                    <td><label for="">Action</label></td>
+                </tr>
+            </thead>
+            <tbody id="tbdy">
+
+            </tbody>
+
+        </table>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

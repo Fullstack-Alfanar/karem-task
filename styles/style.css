@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+}
+
+table, td, tr{
+    border: 1px solid;
+    text-align: center;
+}
+td{
+    padding: 5px;
+}
+
+input{
+    margin: 5px;
+}
+
+.tbl{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.images{
+    width: 100px;
+    height: 75px;
+}
+
+.container{
+    text-align: center;
+    margin: 20px;
+}
+.btn{
+    background-color: red;
+    
+}
